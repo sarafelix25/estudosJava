@@ -16,6 +16,7 @@ public class Main {
 
         InterfaceX obj3 = (n) -> { return n * 5; };
         InterfaceX obj4 = (n) -> { return n * n * n; };
+        InterfaceX obj5 = (n) -> { return n * n * n; };
 
         System.out.println("Retorno da instância 1 = " + obj.metodo(4));
         System.out.println("Retorno da instância 2 = " + obj2.metodo(4));
